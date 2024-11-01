@@ -1,0 +1,69 @@
+# Ignore node_modules for JavaScript/Node.js projects
+node_modules/
+
+# Ignore build output directories for various frontend frameworks
+dist/
+build/
+public/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore package lock files (optional)
+package-lock.json
+yarn.lock
+
+# Ignore cache files and folders
+.cache/
+.parcel-cache/
+.vscode/
+
+# Ignore temporary files and working directories
+*.tmp
+*.swp
+*.swo
+
+# Ignore specific file types often created in design software
+*.psd
+*.ai
+*.xd
+*.pdf
+
+# Ignore environment variables file
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore dependency files and generated artifacts
+lib-cov/
+*.lcov
+coverage/
+*.coverage
+*.nyc_output
+
+# Ignore temporary or swap files created by text editors
+*~
+*.bak
+*.orig
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore compiled code
+*.o
+*.out
+*.class
+*.dll
+*.so
+*.exe
+*.pyc
